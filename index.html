@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Site</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="login-shell" aria-labelledby="login-title">
+        <div class="brand-panel">
+          <p class="eyebrow">Local Web Project</p>
+          <h1 id="login-title">ログイン</h1>
+          <p class="lead">ID とパスワードを入力できる、シンプルな確認用画面です。</p>
+        </div>
+
+        <form class="login-form" id="loginForm">
+          <label class="field">
+            <span>ID</span>
+            <input
+              id="userId"
+              name="userId"
+              type="text"
+              autocomplete="username"
+              placeholder="例: demo"
+              required
+            >
+          </label>
+
+          <label class="field">
+            <span>PASS</span>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              autocomplete="current-password"
+              placeholder="パスワード"
+              required
+            >
+          </label>
+
+          <button type="submit">ログイン</button>
+          <p class="message" id="message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
