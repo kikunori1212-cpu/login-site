@@ -1,15 +1,16 @@
-# Login Site
+# SECCON Beginners CTF 2026で学ぶリバースエンジニアリング入門
 
-ローカル環境で確認できる、シンプルなログイン画面のWebサイトです。
+ID と PASS を入力してログインすると、SECCON Beginners CTF 2026 のページへ移動するシンプルな学習用Webサイトです。
 
 ## 使い方
 
 1. `index.html` をブラウザで開く
 2. ID と PASS を入力する
 3. `ログイン` ボタンを押す
+4. SECCON Beginners CTF 2026 のページへ移動する
 
 ## ファイル構成
 
-- `index.html`: 画面本体
-- `styles.css`: 見た目の調整
-- `script.js`: 入力後の簡単な動作
+- `index.html`: ログイン画面
+- `styles.css`: 画面デザイン
+- `script.js`: 入力確認とページ遷移
